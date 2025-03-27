@@ -4,14 +4,14 @@
 // @version      1.0
 // @description  自动备份
 // @author       v9d0g
-// @match        /add/
-// @match        /add
-// @icon         /add/static/img/main.ico
+// @match        https://src.sjtu.edu.cn/add/
+// @match        https://src.sjtu.edu.cn/add
+// @icon         https://src.sjtu.edu.cn/add/static/img/main.ico
 // @grant        none
 // ==/UserScript==
 
 
-const BaseURL='';
+const BaseURL='https://src.sjtu.edu.cn';
 const IsAutoBackUp = true;
 // 保存的文件后缀
 const SaveSuffix ='.md';
