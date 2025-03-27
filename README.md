@@ -1,6 +1,6 @@
 # 简介
 
-一个用于提交报告时顺带下载备份的油猴脚本，直接添加进浏览器的油猴拓展中即可使用。
+一个用于提交EDU SRC报告时顺带下载备份的油猴脚本，直接添加进浏览器的油猴拓展中即可使用。
 
 ------
 
@@ -10,24 +10,6 @@
 
 ![](https://raw.githubusercontent.com/v9d0g/AutoBackUp/refs/heads/main/images/83f5d1cc-0a27-4e82-89be-801662d8813d.png)
 
-除此之外你需要打开该脚本，手动添加**3处**URL
-
-![](https://raw.githubusercontent.com/v9d0g/AutoBackUp/refs/heads/main/images/ef81f2c0-5aba-4433-a84f-c78ac8d51c7a.png)
-
-------
-
-## 例如
-
-```js
-// @match        https://xxx.com/add/
-// @match        https://xxx.com/add
-// @icon         https://xxx.com/static/img/main.ico //图标 可选
-// @grant        none
-// ==/UserScript==
-
-
-const BaseURL='https://xxx.com';
-```
 
 一切正常后，你界面的右侧会出现一个小卡片
 
